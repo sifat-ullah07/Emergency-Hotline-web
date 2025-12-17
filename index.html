@@ -15,7 +15,7 @@
   </head>
 </head>
 <body class="font-hind">
-    <nav class="shadow-lg max-w-[1920px] max-auto h-auto border-2 border-red-600 p-4">
+    <nav class="shadow-lg max-w-[1920px] mx-auto h-auto border-2 border-red-600 p-4 ">
         <div class="flex justify-between items-center">
             <div class="flex items-center gap-4">
                 <img src="assets/logo.png" class="h-[50px] w-[50px]" alt="">
@@ -37,10 +37,10 @@
                     <span class="stat-count" id="coin-count">100</span>
                 </div>
             </div>   -->
-            <div>
-                <button class="btn bg-[#41ff6b1a] w-[123px] h-[52px] rounded-[50px] py-[12px] px-[20px]">Default</button>
-                <button class="btn bg-[#41ff6b1a] w-[106px] h-[52px] rounded-[50px] py-[12px] px-[20px]">Default</button>
-                <button class="btn bg-[#41ff6b1a] w-[123px] h-[52px] rounded-[50px] py-[12px] px-[20px]">Default</button>
+            <div class="flex gap-2">
+                <button class="btn bg-[#41ff6b1a] w-[123px] h-[52px] rounded-[50px] py-[12px] px-[20px]  flex flex-row items-center "><span class="h-[24] w-[12] mt-[12px] mb-[12px] ml-[10px]">0</span> <span><img class="w-[30px] h-[30px] gap-2 mt-[12px] mb-[12px] ml-[10px]" src="assets/heart.png" alt=""></span></button>
+                <button class="btn bg-[#41ff6b1a] w-[106px] h-[52px] rounded-[50px] py-[12px] px-[20px] flex flex-row items-center"><span class="mt-[12px] mb-[12px] ml-[10px] h-[24px] w-[32px">100</span> <span><img class="h-[24px] w-[24px] gap-2 mt-[12px] mb-[12px] ml-[10px]" src="assets/coin.png" alt=""></span></button>
+                <button class="btn w-[123px] h-[52px] rounded-[50px] py-[12px] px-[20px] bg-[#00a63e] text-white">2 Copy</button>
             </div>
 
 
@@ -48,7 +48,7 @@
 
     </nav>
     <section>
-        <div class="border-2 border-red-600 h-[239px] max-w-[1920px] max-auto mt-4 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center text-white gap-4 py-[12px] px-[60px]">
+        <div class="border-2 border-red-600 h-[239px] max-w-[1920px] mx-auto mt-4 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center text-white gap-4 py-[12px] px-[60px]">
             <img src="assets/logo-dark.png" class="w-[92px] h-[92px] " alt="">
             <h1 class="font-bold text-4xl">Emergency Service Directory</h1>
             <p class="font-semibold text-xl h-[28px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
@@ -56,117 +56,119 @@
         </div>
 
     </section>
-    <section>
-        <div class="max-w-[1370px] max-auto mt-4 grid grid-cols-3 gap-x-[30px] gap-y-[30px]  px-4  bg-green-50 ">
-            <!-- card 1 -->
-            <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
-                <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
-                    <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
-                    </button>
+    <section class="bg-green-50 pb-8 w-[1920px] mx-auto">
+        <div class="flex flex-row max-w-[1920px] mx-auto">
+            <div class="w-[1370px]  mx-auto h-[1126px] mt-4 grid grid-cols-3 gap-x-[30px] gap-y-[30px]  px-4  bg-green-50 flex ">
+                <!-- card 1 -->
+                <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative" id="national-emergency-services-button">
+                    <div class="flex justify-between">
+                        <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
+                        <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-2xl">National Emergency Number</h2>
+                        <p>National Emergency</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">999</p>
+                        <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
+                        <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    </div>
+                    <div>
+                        <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4 items-center">copy</button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4 items-center" id="national-emergency-services">Call now</button>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
-                </div>
-                <div>
-                    <p class="font-bold text-xl">999</p>
-                    <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
-                </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
 
-            <!-- card 2 -->
-            <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
-                <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
-                    <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
-                    </button>
+                 <!-- card 2 -->
+                <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
+                    <div class="flex justify-between">
+                        <img src="assets/police.png" class="w-[64px] h-[64px]" alt="">
+                        <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-2xl">Police Helpline Number</h2>
+                        <p>Police</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">999</p>
+                        <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
+                        <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    </div>
+                    <div>
+                        <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">copy</button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4" id="police-helpline">Coll now</button>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
-                </div>
-                <div>
-                    <p class="font-bold text-xl">999</p>
-                    <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
-                </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
 
-            <!-- card 3 -->
-            <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
-                <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
-                    <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
-                    </button>
+                <!-- card 3 -->
+                <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
+                    <div class="flex justify-between">
+                        <img src="assets/fire-service.png" class="w-[64px] h-[64px]" alt="">
+                        <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-2xl">Fire Service Number</h2>
+                        <p>Fire Service</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">999</p>
+                        <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
+                        <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    </div>
+                    <div>
+                        <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
-                </div>
-                <div>
-                    <p class="font-bold text-xl">999</p>
-                    <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
-                </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
 
-            <!-- card 4 -->
-            <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
-                <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
-                    <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
-                    </button>
+                <!-- card 4 -->
+                <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
+                    <div class="flex justify-between">
+                        <img src="assets/ambulance.png" class="w-[64px] h-[64px]" alt="">
+                        <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-2xl">Ambulance Service</h2>
+                        <p>Ambulancey</p>
+                    </div>
+            
+                    <div>
+                        <p class="font-bold text-xl">1994-999999</p>
+                        <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
+                        <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    </div>
+                    <div>
+                        <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4"></button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
-                </div>
-                <div>
-                    <p class="font-bold text-xl">999</p>
-                    <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
-                </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
 
-            <!-- card 5 -->
-            <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
-                <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
-                    <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
-                    </button>
+                <!-- card 5 -->
+                <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
+                    <div class="flex justify-between">
+                        <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
+                        <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-2xl">Women & Child Helpline</h2>
+                        <p>Women & Child Helpline</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">109</p>
+                        <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
+                        <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    </div>
+                    <div>
+                        <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
-                </div>
-                <div>
-                    <p class="font-bold text-xl">999</p>
-                    <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
-                </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
 
             <!-- card 6 -->
             <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
@@ -176,11 +178,11 @@
                     </button>
                 </div>
                 <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
+                    <h2 class="font-bold text-2xl">Anti-Corruption Helpline</h2>
+                    <p>Anti-Corruption</p>
                 </div>
                 <div>
-                    <p class="font-bold text-xl">999</p>
+                    <p class="font-bold text-xl">106s</p>
                     <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
                     <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
                 </div>
@@ -198,13 +200,13 @@
                     </button>
                 </div>
                 <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
+                    <h2 class="font-bold text-2xl">Electricity Helpline</h2>
+                    <p>Electricity Outage</p>
                 </div>
                 <div>
                     <p class="font-bold text-xl">999</p>
                     <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">Electricity</span>
                 </div>
                 <div>
                     <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
@@ -215,18 +217,18 @@
             <!-- card 8 -->
             <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
                 <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
+                    <img src="assets/brac.png" class="w-[64px] h-[64px]" alt="">
                     <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
                     </button>
                 </div>
                 <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
+                    <h2 class="font-bold text-2xl">Brac Helpline</h2>
+                    <p>Brac</p>
                 </div>
                 <div>
-                    <p class="font-bold text-xl">999</p>
+                    <p class="font-bold text-xl">16445</p>
                     <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">NGO</span>
                 </div>
                 <div>
                     <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
@@ -237,30 +239,62 @@
             <!-- card 9 -->
             <div class="border-2 border-red-600 w-[436.67px] h-[360px] rounded-lg p-4 flex flex-col  gap-4 box-border  bg-white  rounded-2xl shadow-md p-6 relative">
                 <div class="flex justify-between">
-                    <img src="assets/emergency.png" class="w-[64px] h-[64px]" alt="">
+                    <img src="assets/Bangladesh-Railway.png" class="w-[64px] h-[64px]" alt="">
                     <button class="btn btn-square w-[24px] h-[24px] my-[18px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-[1.2em]"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
                     </button>
                 </div>
                 <div>
-                    <h2 class="font-bold text-2xl">National Emergency Number</h2>
-                    <p>National Emergency</p>
+                    <h2 class="font-bold text-2xl">Bangladesh Railway Helpline </h2>
+                    <p>Bangladesh Railway</p>
                 </div>
                 <div>
-                    <p class="font-bold text-xl">999</p>
+                    <p class="font-bold text-xl">163</p>
                     <!-- <button class="btn btn-sm bg-[#f2f2f2] w-[53px] h-[37px] rounded-[9999px]">All</button> -->
-                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">All</span>
+                    <span class="inline-block mb-6 px-4 py-1 text-sm bg-gray-100 rounded-full text-gray-600">rave</span>
                 </div>
-                <div>
-                    <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                    <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
-                </div>
-            </div>
-            
-        </div>    
+                    <div>
+                        <!-- <button class="btn bg-[#41ff6b1a] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button>
+                        <button class="btn bg-[#00a63e] w-[182.33px] h-[40px] rounded-[8px] p-4">Default</button> -->
+                        <button onclick="copyNumber('999')"class="btn-sm border border-gray-300 text-gray-700 hover:bg-gray-100">📋 Copy</button>
+
+                    </div>
+               </div>
+           </div>
+           <div class="w-[400px] h-[1126px] border-2  mx-auto mt-4 gap-x-[30px] gap-y-[30px]  px-4  bg-white shadow-md" id="history-container">
+                <!-- side content -->
+                 <div>
+                    <div class="flex justify-between items-center bg-white mt-[24px] mr-[24px] ml-[24px] mb-[16px]  border border-gray-300 rounded-lg ">
+
+                        <button class="btn btn-soft h-[28px] w-[104px] bg-[#00a63e]" id="call-history"><i class="fa-solid fa-clock-rotate-left"></i>Call History</button>
+                        <button class="btn btn-soft  h-[52px] w-[114px] bg-[#00a63e]">Clear</button>
+
+                    </div>
+                    <div class="border-2 border-red-600 bg-white">
+                        <div class="flex justify-between ">
+                            <div class="w-[215px] h-[51px]">
+                                <h2 class="font-samibold text-base">National Emergency Number</h2>
+                                <p>999</p>
+
+                            </div>
+                            <div>
+                                <p>11:36:58 AM</p>
+                            </div>
+                        </div>
+
+                    </div>
+                 </div>
+            </div>     
+
+    
+        </div>
+        
+    
+   
 
 
     </section>
-    
+
+    <script src="practice.js"></script>
     
 </body>
 </html>
